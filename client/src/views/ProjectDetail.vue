@@ -1,10 +1,10 @@
 <template>
   <div>
-    <h1 class="font-bold text-2xl mb-2">{{ project.item }}</h1>
+    <h1 class="font-bold text-2xl mb-2">{{ project?.item }}</h1>
     <template v-for="task in tasks">
       <div>
         <input type="checkbox" @change="" />
-        <label for="">{{ task.title }}</label>
+        <label for="">{{ task?.title }}</label>
       </div>
     </template>
   </div>
