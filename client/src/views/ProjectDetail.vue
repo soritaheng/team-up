@@ -18,7 +18,8 @@ const route = useRoute();
 const project = ref({});
 const tasks = ref([]);
 
-const API_URL = "http://localhost:3000";
+// const API_URL = "http://localhost:3000";
+const API_URL = "https://winter-hackathon.onrender.com/"
 
 //fetch tasks
 onMounted(async () => {
