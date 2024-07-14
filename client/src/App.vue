@@ -1,3 +1,6 @@
 <template>
-    <div class="font-bold">hello world</div>
+    <main class="p-4 mx-auto max-w-[600px]">
+        <RouterView></RouterView>
+    </main>
 </template>
+
