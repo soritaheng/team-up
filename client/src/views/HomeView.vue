@@ -28,7 +28,7 @@ import ProjectItem from "../components/ProjectItem.vue";
 import { response } from "express";
 
 // const API_URL = "http://localhost:3000";
-const API_URL = "https://winter-hackathon.onrender.com/";
+const API_URL = "https://winter-hackathon.onrender.com";
 
 const projects = ref([]);
 const input = ref("");
